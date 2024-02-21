@@ -15,26 +15,34 @@ services:
     container_name: perfil_1
     build: ./perfil_deportivo
     environment:
-      CELERY_QUEUE: cola
+      CORRECT_BMI: 1
+      FLASK_APP: src/app.py  
     depends_on:
       - redis
   perfil_2:
     container_name: perfil_2
     build: ./perfil_deportivo
     environment:
-      CELERY_QUEUE: cola
+      FLASK_APP: src/app.py  
+      CORRECT_BMI: 1
     depends_on:
       - redis
   perfil_defectuoso:
     container_name: perfil_defectuoso
     build: ./perfil_deportivo
     environment:
+      FLASK_APP: src/app.py  
       CELERY_QUEUE: cola
     depends_on:
       - redis
   validador:
     container_name: validador
     build: ./validador
+    environment:
+      FLASK_APP: src/app.py  
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      CELERY_QUEUE: cola
     depends_on:
       - redis
   redis:
@@ -50,6 +58,9 @@ services:
     environment:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
+      - PERFIL_1=http://perfil_1:5000
+      - PERFIL_2=http://perfil_2:5000
+      - PERFIL_3=http://perfil_defectuoso:5000
 
 
 
