@@ -1,0 +1,20 @@
+{
+  // Ignore env in vscode search
+  "search.exclude": {
+    "**/env": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/tmp": true,
+    "**/temp": true,
+    "**/logs": true,
+    "**/flow-typed": true,
+    "**/flow-typed-tmp": true,
+    "**/ios": true
+  },
+  // Hide pychache in vscode explorer
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}

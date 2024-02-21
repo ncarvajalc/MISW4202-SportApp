@@ -1,0 +1,77 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - registro_usuario_1
+      - registro_usuario_2
+      - registro_usuario_3
+  registro_usuario_1:
+    container_name: registro_usuario_1
+    build: ./registro_usuario
+    environment:
+      CELERY_QUEUE: cola
+      FLASK_APP: src/app.py  
+      STATUS: healthy
+    depends_on:
+      - redis
+  registro_usuario_2:
+    container_name: registro_usuario_2
+    build: ./registro_usuario
+    environment:
+      CELERY_QUEUE: cola
+      FLASK_APP: src/app.py  
+      STATUS: healthy
+    depends_on:
+      - redis
+  registro_usuario_3:
+    container_name: registro_usuario_3
+    build: ./registro_usuario
+    environment:
+      CELERY_QUEUE: cola
+      FLASK_APP: src/app.py  
+      STATUS: unhealthy
+    depends_on:
+      - redis
+  monitor:
+    container_name: monitor
+    build: ./monitor
+    environment:
+      CELERY_QUEUE: cola
+      FLASK_APP: src/app.py  
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    depends_on:
+      - redis
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+  celery:
+    container_name: celery
+    build: ./tasks
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REGISTRO_USUARIO_1=http://registro_usuario_1:5000
+      - REGISTRO_USUARIO_2=http://registro_usuario_2:5000
+      - REGISTRO_USUARIO_3=http://registro_usuario_3:5000
+
+volumes:
+  redis-data:
+
+
+
+
+
+
