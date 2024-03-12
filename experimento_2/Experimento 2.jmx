@@ -32,7 +32,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor">
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">TASK_ID</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.task_id</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>

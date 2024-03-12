@@ -1,0 +1,50 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - perfil
+      - autorizador
+
+  perfil:
+    container_name: perfil
+    build: ./perfil_deportivo
+    environment:
+      FLASK_APP: src/app.py
+      URL_AUTORIZADOR: http://autorizador:5000
+
+  autorizador:
+    container_name: autorizador
+    build: ./autorizador
+    environment:
+      FLASK_APP: src/app.py  
+      DATABASE_URL: postgresql://postgres:postgres@autorizador_db/users
+      JWT_SECRET_KEY: secret
+    depends_on:
+      autorizador_db:
+        condition: service_healthy
+
+  autorizador_db:
+    container_name: autorizador_db
+    image: postgres
+    environment:
+      POSTGRES_DB: users
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 2s
+      timeout: 5s
+      retries: 5
+
+
+

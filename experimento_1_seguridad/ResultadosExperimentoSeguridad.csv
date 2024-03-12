@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710286239084,73,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,73,0,5
+1710286239218,34,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,34,0,0
+1710286239297,17,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,17,0,0
+1710286239360,34,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,34,0,0
+1710286239440,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286239502,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286239559,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286239616,30,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,30,0,0
+1710286239691,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286239752,28,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,28,0,0
+1710286239825,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286239881,4,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286239931,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286239984,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286240044,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286240100,29,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,29,0,0
+1710286240175,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286240233,22,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,22,0,0
+1710286240296,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286240352,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286240406,19,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,19,0,0
+1710286240471,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286240532,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286240587,20,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286240653,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286240712,16,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,16,0,1
+1710286240773,18,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286240832,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286240889,18,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286240952,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286241008,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,0
+1710286241066,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286241123,14,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,14,0,0
+1710286241180,24,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,24,0,0
+1710286241249,16,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286241311,14,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,14,0,1
+1710286241370,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286241426,24,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,24,0,0
+1710286241496,4,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286241546,20,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286241611,26,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,26,0,1
+1710286241682,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286241743,26,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,26,0,0
+1710286241813,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286241873,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286241921,4,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,4,0,1
+1710286241966,6,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,6,0,0
+1710286242016,4,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,4,0,0
+1710286242065,20,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286242131,19,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286242197,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,1
+1710286242253,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286242310,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286242360,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286242416,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286242470,14,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,14,0,1
+1710286242526,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286242583,20,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,20,0,0
+1710286242649,26,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,26,0,0
+1710286242720,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286242776,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286242835,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286242893,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286242949,14,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286243008,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286243067,20,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,20,0,1
+1710286243128,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286243181,13,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,13,0,0
+1710286243240,14,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286243299,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286243351,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,1
+1710286243404,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286243456,4,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,4,0,0
+1710286243503,18,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286243567,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286243625,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,2
+1710286243681,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286243740,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286243795,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286243854,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286243908,21,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,21,0,1
+1710286243974,5,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286244021,3,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,3,0,0
+1710286244070,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286244126,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286244178,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,1
+1710286244234,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286244295,18,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,18,0,0
+1710286244357,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286244414,20,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286244479,22,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,22,0,1
+1710286244547,8,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286244600,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286244652,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286244709,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286244766,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,0
+1710286244823,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286244884,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286244941,16,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286245002,22,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,21,0,0
+1710286245069,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286245126,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286245183,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286245234,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286245291,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286245345,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286245403,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286245461,3,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,3,0,0
+1710286245509,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286245569,16,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286245630,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,0
+1710286245687,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286245742,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286245800,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286245859,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286245915,32,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,32,0,0
+1710286245988,5,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286246037,3,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,3,0,0
+1710286246082,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286246132,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286246191,9,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,9,0,0
+1710286246245,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286246301,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286246354,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286246408,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286246466,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,1
+1710286246519,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286246571,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286246627,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286246685,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286246744,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286246802,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286246861,15,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,15,0,0
+1710286246923,19,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286246985,15,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286247044,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286247103,18,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286247166,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286247223,16,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286247284,15,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286247345,34,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,34,0,0
+1710286247422,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286247481,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286247532,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286247589,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286247646,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286247703,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286247762,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286247813,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286247873,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286247928,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286247982,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286248042,16,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,16,0,0
+1710286248103,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286248153,4,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286248203,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,0
+1710286248255,20,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286248320,15,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,15,0,0
+1710286248379,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286248433,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286248492,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,0
+1710286248549,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286248604,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286248655,14,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286248714,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286248771,30,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,30,0,0
+1710286248844,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286248907,14,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,14,0,0
+1710286248964,19,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286249024,24,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,24,0,0
+1710286249093,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286249149,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286249204,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286249258,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286249320,19,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286249381,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286249439,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286249489,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286249540,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286249601,18,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286249665,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,2
+1710286249726,20,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286249787,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286249844,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286249907,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286249967,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286250020,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286250074,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286250123,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286250176,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286250226,5,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,5,0,1
+1710286250276,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286250328,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286250382,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286250445,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286250499,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,0
+1710286250557,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286250616,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286250666,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286250728,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286250787,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286250845,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286250903,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286250960,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286251013,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286251070,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,0
+1710286251126,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286251186,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286251238,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286251289,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286251348,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,3
+1710286251405,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286251460,14,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,14,0,0
+1710286251518,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286251579,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286251636,14,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,14,0,0
+1710286251696,19,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286251761,13,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,13,0,0
+1710286251817,20,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286251879,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286251954,16,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,16,0,1
+1710286252015,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286252072,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286252123,14,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286252181,23,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,23,0,0
+1710286252245,4,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,4,0,1
+1710286252295,4,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286252344,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286252396,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286252474,15,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286252533,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,0
+1710286252590,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286252649,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286252704,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286252763,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286252817,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,1
+1710286252871,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286252933,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286252987,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286253046,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286253097,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286253155,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286253211,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286253268,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286253325,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286253379,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,1
+1710286253439,4,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286253488,3,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,3,0,0
+1710286253537,8,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286253588,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286253646,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,0
+1710286253703,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286253760,13,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,13,0,0
+1710286253817,12,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286253874,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286253928,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286253984,15,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286254045,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286254098,12,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286254156,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286254209,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,3
+1710286254263,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286254319,4,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,4,0,0
+1710286254368,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286254417,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286254484,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,0
+1710286254537,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286254595,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286254651,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286254709,15,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286254766,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286254825,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286254880,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286254933,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286254986,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286255044,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,1
+1710286255105,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286255161,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286255209,14,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286255267,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286255320,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,1
+1710286255373,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286255427,19,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,19,0,0
+1710286255491,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286255545,22,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,22,0,0
+1710286255613,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,0
+1710286255667,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286255720,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286255773,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286255829,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286255887,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,1
+1710286255945,24,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,24,0,0
+1710286256013,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286256070,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286256131,18,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286256193,15,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,15,0,1
+1710286256249,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286256304,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286256361,4,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286256410,4,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286256459,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,1
+1710286256513,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286256575,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286256628,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286256686,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286256743,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,0
+1710286256795,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286256854,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286256909,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286256965,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286257021,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,1
+1710286257072,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286257127,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286257182,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286257242,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286257301,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286257356,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286257414,15,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,15,0,0
+1710286257516,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286257571,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286257624,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,1
+1710286257677,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286257730,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286257787,12,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286257844,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286257900,14,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,14,0,1
+1710286257958,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286258011,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286258064,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286258119,8,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286258172,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,1
+1710286258221,8,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286258273,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286258320,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286258377,27,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,26,0,0
+1710286258448,4,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,4,0,1
+1710286258521,7,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,7,0,0
+1710286258570,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286258625,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286258677,8,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,7,0,0
+1710286258730,9,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,9,0,1
+1710286258784,8,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286258838,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286258890,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286258944,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286259024,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286259080,20,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,20,0,0
+1710286259145,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286259198,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286259256,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286259313,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,0
+1710286259368,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286259424,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286259477,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286259533,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286259588,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,0
+1710286259646,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286259697,13,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,13,0,0
+1710286259755,7,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,7,0,0
+1710286259807,8,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286259861,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,2
+1710286259919,7,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,7,0,0
+1710286259970,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286260036,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286260090,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286260144,18,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,18,0,1
+1710286260207,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286260261,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286260312,9,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286260363,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286260418,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,1
+1710286260470,18,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286260542,3,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,3,0,0
+1710286260590,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286260641,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286260689,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,1
+1710286260745,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286260803,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286260860,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286260918,8,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286260972,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,0
+1710286261036,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286261094,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286261152,23,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,23,0,0
+1710286261219,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286261275,14,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,14,0,1
+1710286261335,16,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286261396,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286261451,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286261532,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286261588,23,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,23,0,1
+1710286261656,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286261709,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286261758,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286261811,11,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286261865,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,1
+1710286261914,8,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286261967,5,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,5,0,0
+1710286262057,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286262113,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286262165,16,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,16,0,1
+1710286262227,8,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286262280,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286262332,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286262391,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286262449,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,2
+1710286262505,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286262563,4,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,4,0,0
+1710286262609,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286262660,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286262711,5,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,4,0,1
+1710286262756,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286262815,5,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,5,0,0
+1710286262865,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286262917,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286262973,24,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,24,0,0
+1710286263047,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286263106,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286263158,17,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286263220,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286263278,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,1
+1710286263330,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286263389,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286263439,4,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,4,0,0
+1710286263486,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286263556,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,0
+1710286263612,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286263670,12,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,12,0,0
+1710286263724,16,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286263786,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286263843,7,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,7,0,0
+1710286263895,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286263949,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286264002,18,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286264065,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286264124,10,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,10,0,1
+1710286264177,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286264234,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286264289,11,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286264342,16,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286264403,33,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,33,0,2
+1710286264481,11,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,11,0,0
+1710286264578,17,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,17,0,0
+1710286264636,5,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286264686,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286264740,4,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,4,0,1
+1710286264790,6,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,6,0,0
+1710286264841,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286264892,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286264949,13,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286265008,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,1
+1710286265065,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286265123,13,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,13,0,0
+1710286265180,15,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,15,0,0
+1710286265240,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286265298,8,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,8,0,0
+1710286265348,12,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286265401,7,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,7,0,0
+1710286265453,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286265511,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286265586,12,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,12,0,0
+1710286265641,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
+1710286265704,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286265756,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286265808,12,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,12,0,0
+1710286265862,22,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,22,0,0
+1710286265930,13,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286265988,11,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,11,0,0
+1710286266094,21,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,21,0,0
+1710286266157,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286266216,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,1
+1710286266271,14,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286266330,10,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,10,0,0
+1710286266385,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286266439,9,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286266494,9,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,9,0,1
+1710286266600,17,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286266660,6,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,6,0,0
+1710286266711,13,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,13,0,0
+1710286266764,5,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,5,0,0
+1710286266815,3,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,3,0,0
+1710286266859,6,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,6,0,0
+1710286266910,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286266965,19,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286267028,16,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,16,0,0
+1710286267115,11,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,11,0,0
+1710286267170,9,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,9,0,0
+1710286267221,15,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,15,0,0
+1710286267279,8,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,8,0,0
+1710286267333,10,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286267389,17,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,17,0,1
+1710286267448,18,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,18,0,0
+1710286267509,9,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,9,0,0
+1710286267598,19,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,19,0,0
+1710286267663,14,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,14,0,0
+1710286267721,13,Solicitud token deportista bueno,200,OK,Thread Group 1-1,text,true,,520,251,1,1,http://localhost/autorizador/login,13,0,0
+1710286267776,10,Solicitar datos privados del deportista bueno (deportista bueno),200,OK,Thread Group 1-1,text,true,,294,516,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286267829,8,Solicitud token deportista malo,200,OK,Thread Group 1-1,text,true,,519,250,1,1,http://localhost/autorizador/login,8,0,0
+1710286267880,10,Solicitar datos privados del deportista bueno (deportista malo),403,FORBIDDEN,Thread Group 1-1,text,false,,173,515,1,1,http://localhost/perfil/private_data/deportista-bueno,10,0,0
+1710286267933,17,Solicitar datos privados del deportista bueno (usuario no registrado),401,UNAUTHORIZED,Thread Group 1-1,text,false,,179,147,1,1,http://localhost/perfil/private_data/deportista-bueno,17,0,0
